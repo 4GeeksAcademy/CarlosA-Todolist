@@ -46,6 +46,10 @@ export const Todolist = () => {
                         </li>
                     ))}
                 </ul>
+                <div className="row d-flex justify-content-center">
+                <div className="col-xs-auto col-md-6 text-end mt-3">{tareas.length} tareas</div>
+                </div>
+                
             </div>
         </div>
     );
